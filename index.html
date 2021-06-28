@@ -4,29 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website In Progress</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Expanding Cards</title>
 </head>
 <body>
-    <div class="container">
-        <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1620651113999-49492ca0b39a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1300&q=80')">
-            <h3>Explore The World</h3>
+    <header>
+        <div class="logo">
+            <img src="https://images.unsplash.com/photo-1616356257367-9cd4bf56a45e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt ="">
         </div>
-        <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1620657280262-61fd5038e1b1?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
-            <h3>Explore The World</h3>
-        </div>
-        <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1620649332832-45f944292179?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyM3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
-            <h3>Explore The World</h3>
-        </div>
-        <div class="panel active" style="background-image: url('https://images.unsplash.com/photo-1620598852012-5ebc7712a3b8?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
-            <h3>Explore The World</h3>
-        </div>
-        <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1589111502533-e78e1fae673e?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0NXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60')">
-            <h3>Explore The World</h3>
-        </div>
-    </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="3" class="nav__link">Projects</a></li>
+                <li class="nav__item"><a href="3" class="nav__link">Education</a></li>
+                <li class="nav__item"><a href="3" class="nav__link">About me</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <script src="script.js"></script>
+    <!-- Introduction -->
+    <class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>John Smith</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="https://images.unsplash.com/photo-1616812756962-5cbad862aff7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGF2YXRhcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="">
+    </section>
+
+    <!-- My services -->
+    <section class="my--education" id="education">
+        <h2 class="section__title section__title--services">What I can do</h2>
+        <div class="educations">
+            <div class="education">
+                <h3>Project x</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolo
+            </div> <!-- /education --> 
+            <div class="education">
+                <h3>Project y</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolo
+            </div> <!-- /education --> 
+            <div class="education">
+                <h3>Project z</h3>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolo
+            </div> <!-- /education --> 
+        </div> <!-- /educations --> 
+
+
+        <a href="education" class="btn">My Education</a>
+    </section>
+
+
+
+
+    <!-- About me -->
+    <class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolo
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolo
+            </p>
+        </div>
+
+        <img src="https://images.unsplash.com/photo-1549820610-ec7475b33969?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80">
+    </section>
+
+    <!-- Projects -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">My projects</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+            <!-- Portfolow item 01 -->
+            <a href="" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolow item 02 -->
+            <a href="" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolow item 03 -->
+            <a href="" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvamVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="portfolio__img">
+            </a>
+            <!-- Portfolow item 04 -->
+            <a href="" class="portfolio__item">
+                <img src="https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="portfolio__img">
+            </a>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="mailto:hello@jane.dev" class="footer-link">hello@jane.dev</a>
+        <ul class="social-list"></ul>
+        <li class="social-list__item"><a class="social-list__link" href="https://codepen.io"></a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://twitter.com"></a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://github.com"></a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://leetcode.com"></a></li>
+    </footer>
 </body>
+
+
+
+
+
+<!-- https://www.youtube.com/watch?v=_xkSvufmjEs -->
 </html>
+
+
