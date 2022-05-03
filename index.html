@@ -1,149 +1,214 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website In Progress</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro&display=swap" >
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="http://vstability.com/img/devjane.png" alt ="">
-        </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="3" class="nav__link">Projects</a></li>
-                <li class="nav__item"><a href="3" class="nav__link">Education</a></li>
-                <li class="nav__item"><a href="3" class="nav__link">About me</a></li>
-            </ul>
-        </nav>
-    </header>
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Miniport by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-    <!-- Introduction -->
-    <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I am <strong>Luke Roblesky</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">front-end dev asdf asdf</p>
-        <img src="https://images.unsplash.com/photo-1616812756962-5cbad862aff7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGF2YXRhcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60" alt="" class="intro__img">
-    </section>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-    <!-- My services -->
-    <section class="my--project" id="project">
-        <h2 class="section__title section__title--projects">What I can do</h2>
-        <div class="projects">
-            <div class="project">
-                <h3>Project x</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolo
-            </div> <!-- /education --> 
-            <div class="project">
-                <h3>Project y</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolo
-            </div> <!-- /education --> 
-            <div class="project">
-                <h3>Project z</h3>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                    in reprehenderit in voluptate velit esse cillum dolo
-            </div> <!-- /education --> 
-        </div> <!-- /educations --> 
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/pic00.jpg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Jane Doe</strong>.</h1>
+							</header>
+							<p>And this is <strong>Miniport</strong>, a free, fully responsive HTML5 site template designed by <a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a> &amp; released under the <a href="http://html5up.net/license">CCA license</a>.</p>
+							<a href="#work" class="button large scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</div>
+			</article>
 
+		<!-- Work -->
+			<article id="work" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Here's all the stuff I do.</h2>
+						<p>Odio turpis amet sed consequat eget posuere consequat.</p>
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-comments"></span>
+								<h3>Consequat lorem</h3>
+								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon solid featured fa-camera-retro"></span>
+								<h3>Lorem dolor tempus</h3>
+								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-thumbs-up"></span>
+								<h3>Feugiat posuere</h3>
+								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+							</section>
+						</div>
+					</div>
+					<footer>
+						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<a href="#portfolio" class="button large scrolly">See some of my recent work</a>
+					</footer>
+				</div>
+			</article>
 
-        <a href="education" class="btn">My Education</a>
-    </section>
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Here’s some stuff I made recently.</h2>
+						<p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p>
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<h3><a href="#">Magna feugiat</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<h3><a href="#">Veroeros primis</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+								<h3><a href="#">Lorem ipsum</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+								<h3><a href="#">Tempus dolore</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+								<h3><a href="#">Feugiat aliquam</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+								<h3><a href="#">Sed amet ornare</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+					</footer>
+				</div>
+			</article>
 
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Have me make stuff for you.</h2>
+						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Subject" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+				</div>
+			</article>
 
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-
-    <!-- About me -->
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Full stack avid learner...</p>
-
-        <div class="about-me__body">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolo
-            </p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolo
-            </p>
-        </div>
-
-        <img src="https://images.unsplash.com/photo-1549820610-ec7475b33969?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="about-me__img">
-    </section>
-
-    <!-- Projects -->
-    <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My projects</h2>
-        <p class="section__subtitle section__subtitle--work">A sample of my range of work</p>
-
-        <div class="portfolio">
-            <!-- Portfolow item 01 -->
-            <a href="" class="portfolio__item">
-                <img src="https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolow item 02 -->
-            <a href="" class="portfolio__item">
-                <img src="https://images.unsplash.com/photo-1572177812156-58036aae439c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" class="portfolio__img">
-            </a>
-            <!-- Portfolow item 03 -->
-            <a href="" class="portfolio__item">
-                <img src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJvamVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="portfolio__img">
-            </a>
-            <!-- P ortfolow item 04 -->
-            <a href="" class="portfolio__item">
-                <img src="https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="portfolio__img">
-            </a>
-            <!-- P ortfolow item 05 -->
-            <a href="" class="portfolio__item">
-                <img src="https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="portfolio__img">
-            </a>
-            <!-- P ortfolow item 06 -->
-            <a href="" class="portfolio__item">
-                <img src="https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="portfolio__img">
-            </a>
-        </div>
-
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <a href="mailto:hello@jane.dev" class="footer-link">hello@jane.dev</a>
-        <ul class="social-list"></ul>
-        <li class="social-list__item"><a class="social-list__link" href="https://codepen.io"></a></li>
-        <li class="social-list__item"><a class="social-list__link" href="https://twitter.com"></a></li>
-        <li class="social-list__item"><a class="social-list__link" href="https://github.com"></a></li>
-        <li class="social-list__item"><a class="social-list__link" href="https://leetcode.com"></a></li>
-    </footer>
-</body>
-
-
-
-
-
-<!-- https://www.youtube.com/watch?v=_xkSvufmjEs -->
+	</body>
 </html>
-
-
-  
